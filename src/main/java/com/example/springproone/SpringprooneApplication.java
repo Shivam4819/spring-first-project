@@ -11,8 +11,8 @@ public class SpringprooneApplication {
 
         ConfigurableApplicationContext context= SpringApplication.run(SpringprooneApplication.class, args);
 
-        Alien a=context.getBean(Alien.class);
-        a.show();
+        //Alien a=context.getBean(Alien.class);
+        //a.show();
     }
 
 }
